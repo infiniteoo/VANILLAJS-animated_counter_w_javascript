@@ -11,6 +11,7 @@ body {
   background: lightskyblue
     url("https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg");
   color: #fff;
+  /* Push to bottom */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -20,7 +21,7 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  overflow: auto;
+  overflow: none;
 }
 
 header {
@@ -36,16 +37,16 @@ header h1 {
 }
 
 .counters {
-  background-color: #0f479a;
+  background: #0f479a;
   color: #fff;
-  padding: 40px 10px;
+  padding: 40px 20px;
   border-top: 3px lightskyblue solid;
 }
 
 .counters .container {
   display: grid;
-  grid-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
   text-align: center;
 }
 
